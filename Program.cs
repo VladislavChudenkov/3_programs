@@ -59,7 +59,7 @@ static void delitel()
 }
 static void table()
 {
-    Console.WriteLine(" \t1\t2\t3\t4\t5\t6\t7\t8\t9");
+    int[,] table = new int[10, 10];
     for (int i = 1; i < 10; i++)
     {
         Console.Write(i + "  ");
